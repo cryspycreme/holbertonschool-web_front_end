@@ -147,14 +147,14 @@ a:active{
     z-index: 1;
 }
 
-.card-work .card-inner:hover {
+.card-work:hover .card-inner{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
     text-align: center;
     margin: 0;
-    opacity: 0.0;
+    opacity: 0;
     height: 100%;
     position: relative;
 }
